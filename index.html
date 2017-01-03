@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/keyboard.css" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<button type="button" class="mui-btn mui-btn-blue" onclick="callKeyboard()">支付键盘</button>
+		<div id="keyboard_container">
+			<div id="keyboard_main">
+				<div id="head">
+					<div id="closeBtn" onclick="closeKeyboard()">x</div>
+					<div id="title">输入密码</div>
+					<div id="otherHead"></div>
+				</div>
+
+				<div id="pwdRect">
+					<label class="dotBox"><div class="dot"></div></label>
+					<label class="dotBox"><div class="dot"></div></label>
+					<label class="dotBox"><div class="dot"></div></label>
+					<label class="dotBox"><div class="dot"></div></label>
+					<label class="dotBox"><div class="dot"></div></label>
+					<label class="dotBox"><div class="dot"></div></label>
+				</div>
+				<div id="forgetPwd">忘记密码?</div>
+				<div id="keyRect">
+					<div class="keyRow">
+						<div class="keyCell">1</div>
+						<div class="keyCell">2</div>
+						<div class="keyCell">3</div>
+					</div>
+					<div class="keyRow">
+						<div class="keyCell">4</div>
+						<div class="keyCell">5</div>
+						<div class="keyCell">6</div>
+					</div>
+					<div class="keyRow">
+						<div class="keyCell">7</div>
+						<div class="keyCell">8</div>
+						<div class="keyCell">9</div>
+					</div>
+					<div class="keyRow">
+						<div class="keyCell">c</div>
+						<div class="keyCell">0</div>
+						<div class="keyCell">del</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/keyboard.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function callFunc(){
+			
+		}
+	</script>
+
+</html>
